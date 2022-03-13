@@ -11,13 +11,14 @@ html {
   font-size: 40;
   text-transform: uppercase;
   text-decoration: underline;
+  margin-left: 1%;
 }
 .header .intro {
   text-align: center;
   background-color: rgb(38, 37, 35);
   color:rgb(255, 237, 214);
   width: fit-content;
-  margin-left: 20%;
+  margin-left: 10%;
   font-size: large;
   margin-bottom: 100px;
 }
@@ -31,11 +32,11 @@ html {
 }
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 15px;
-  align-items: flex-end;
-
+  flex-direction: column;
+  gap: 15px;  
+  flex-wrap: wrap;
+  align-items: center;
+  
 }
 a:link {
   color: rgb(242, 137, 7);
@@ -44,4 +45,12 @@ a:link {
 a:visited {
   color: rgb(242, 137, 7);
 }
+.gyudon, .friedegg, .gyudon {
+  width: 200px;
+  height: 300px;
 
+}
+img {
+  height: 300px;
+  width: auto
+}
